@@ -436,6 +436,18 @@ function gmp_random_range(GMP $min, GMP $max) {}
 function gmp_gcd ($a, $b) {}
 
 /**
+ * Calculate LCM
+ * @link http://php.net/manual/en/function.gmp-lcm.php
+ * @param resource|string $a It can be either a GMP number resource, or a
+ * numeric string given that it is possible to convert the latter to a number.</p>
+ * @param resource|string $b It can be either a GMP number resource, or a
+ * numeric string given that it is possible to convert the latter to a number.</p>
+ * @return A GMP number resource in PHP 5.5 and earlier, or a GMP object in PHP 5.6 and later
+ * @since 7.3.0
+ */
+function gmp_lcm ($a, $b) {}
+
+/**
  * Calculate GCD and multipliers
  * @link https://php.net/manual/en/function.gmp-gcdext.php
  * @param resource|string $a It can be either a GMP number resource, or a
